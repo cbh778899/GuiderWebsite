@@ -1,0 +1,96 @@
+body
+{
+	/* mouseStyle */
+	cursor:url(../鼠标.ico),auto;
+	margin:0;
+	padding:0;
+	/* backgroundImage */
+	background-image:url(../長門2.png);
+	background-size:cover;
+	background-attachment:fixed;
+}
+ul
+{
+	/* mouseStyle */
+	cursor:url(../鼠标.ico),auto;
+	height:100%;
+	padding:0;
+	margin:0;
+    overflow:auto;
+}
+li
+{
+	list-style:none;
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	position:relative;
+}
+ul::-webkit-scrollbar
+{
+	width:0;
+	height:0;
+}
+.CommonBlock
+{
+	/* mouseStyle */
+	cursor:url(../鼠标.ico),auto;
+	display:block;
+	/* siteNameColor */
+	color: rgb(255, 0, 0);
+	/* siteBlockBackgroundColor */
+	background-color: rgba(255, 200, 100, 0.2);
+	text-decoration:none;
+	transition-duration:1s;
+	text-align:center;
+	/* siteBlockBorderColor */
+	border:1px solid rgb(255, 0, 0);
+	line-height:60px;
+	border-radius:4px;
+	width:150px;
+	height:60px;
+}
+.CommonBlock:hover
+{
+	/* mouseStyle */
+	cursor:url(../鼠标.ico),auto;
+	/* siteBlockChangedBackgroundColor */
+	background-color:rgb(255, 255, 255);
+	font-weight:bold;
+}
+.special
+{
+	/* mouseStyle */
+	cursor:url(../鼠标.ico),auto;
+	display:block;
+	text-decoration:none;
+	transition-duration:1s;
+	text-align:center;
+	/* siteBlockBorderColor */
+	border:1px solid rgb(255, 0, 0);
+	line-height:60px;
+	border-radius:4px;
+	opacity:0;
+	position:absolute;
+	z-index:1;
+	width:150px;
+	height:60px;
+}
+.special:hover
+{
+    opacity:1;
+}
+.move
+{
+	/* mouseStyle */
+	cursor:url(../鼠标.ico),auto;
+	height:50%;
+	width:10%;
+	opacity:0;
+	display:block;
+	border:1px;
+	margin:0;
+	padding:0;
+	position:fixed;
+	z-index:1;
+}
